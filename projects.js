@@ -7,8 +7,8 @@ window.SITE = {
   name: "Ncham Livingston Ankinimbom",
   bio: "Final-year Geography student at the University of Dschang, Cameroon. I make maps and analyse spatial data for marine, climate-risk and sustainability questions.",
   coords: "5.44° N, 10.05° E",          // shown as a small map annotation; set to "" to hide
-  linkedin: "https://www.linkedin.com/in/your-profile",   // <-- replace with your LinkedIn URL
-  email: "",                              // e.g. "you@example.com"; leave "" to hide the button
+  linkedin: "https://www.linkedin.com/in/ncham-livingston",   // <-- replace with your LinkedIn URL
+  email: "livingstonncham@gmail.com",        // e.g. "you@example.com"; leave "" to hide the button
   footer: "Maps and analysis by Ncham Livingston Ankinimbom."
 };
 
