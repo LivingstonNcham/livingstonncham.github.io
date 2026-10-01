@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dfe9eb"/>
+  <g fill="none" stroke="#8cc7c4" stroke-width="2">
+    <ellipse cx="520" cy="250" rx="60" ry="38"/>
+    <ellipse cx="520" cy="250" rx="120" ry="76"/>
+    <ellipse cx="520" cy="250" rx="180" ry="114"/>
+    <ellipse cx="520" cy="250" rx="240" ry="152"/>
+    <ellipse cx="520" cy="250" rx="300" ry="190"/>
+  </g>
+  <text x="60" y="520" font-family="Arial, sans-serif" font-size="30" fill="#0a3d4f">Add your map image here</text>
+</svg>

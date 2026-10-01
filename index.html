@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maps and spatial projects | Ncham Livingston Ankinimbom</title>
+  <meta name="description" content="Portfolio of maps and GIS projects by Ncham Livingston Ankinimbom, Geography student at the University of Dschang.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <svg id="contours" class="contours" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice"></svg>
+    <div class="wrap hero-inner">
+      <h1 id="site-name">Your name</h1>
+      <p id="site-bio" class="bio"></p>
+      <p class="links">
+        <a id="link-linkedin" class="btn btn-solid" href="#" target="_blank" rel="noopener">Connect on LinkedIn</a>
+        <a id="link-email" class="btn btn-line" href="#" hidden>Send an email</a>
+      </p>
+    </div>
+    <p id="site-coords" class="coords"></p>
+  </header>
+
+  <div class="scalebar" aria-hidden="true"></div>
+
+  <main class="wrap">
+    <section aria-labelledby="gallery-title">
+      <div class="gallery-head">
+        <h2 id="gallery-title">Maps and projects</h2>
+        <p id="count" class="count" aria-live="polite"></p>
+      </div>
+
+      <div id="filters" class="filters" role="group" aria-label="Filter projects by topic"></div>
+
+      <ul id="grid" class="grid"></ul>
+      <p id="empty" class="empty" hidden>No projects in this topic yet. Add one in projects.js.</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p id="footer-text"></p>
+  </footer>
+
+  <dialog id="viewer" class="viewer" aria-labelledby="viewer-title">
+    <button id="viewer-close" class="viewer-close" type="button">Close</button>
+    <img id="viewer-img" alt="">
+    <p id="viewer-title" class="viewer-title"></p>
+  </dialog>
+
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
