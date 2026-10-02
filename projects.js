@@ -9,7 +9,7 @@ window.SITE = {
   coords: "5.44° N, 10.05° E",
   linkedin: "https://www.linkedin.com/in/ncham-livingston",
   email: "livingstonncham@gmail.com",
-  galleryTitle: "Environment and Ocean Dynamics with Stress Mapping in the Gulf of Guinea, Cameroon",
+  galleryTitle: "Maps and spatial projects",
   footer: "Maps and analysis by Ncham Livingston Ankinimbom."
 };
 
