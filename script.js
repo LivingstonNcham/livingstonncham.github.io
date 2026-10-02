@@ -17,6 +17,7 @@
   document.getElementById("site-name").textContent = SITE.name || "";
   document.getElementById("site-bio").textContent = SITE.bio || "";
   document.getElementById("footer-text").textContent = SITE.footer || "";
+  if (SITE.galleryTitle) document.getElementById("gallery-title").textContent = SITE.galleryTitle;
   if (SITE.name) document.title = "Maps and spatial projects | " + SITE.name;
 
   var coords = document.getElementById("site-coords");

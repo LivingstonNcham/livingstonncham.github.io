@@ -6,59 +6,89 @@
 window.SITE = {
   name: "Ncham Livingston Ankinimbom",
   bio: "Final-year Geography student at the University of Dschang, Cameroon. I make maps and analyse spatial data for marine, climate-risk and sustainability questions.",
-  coords: "5.44° N, 10.05° E",          // shown as a small map annotation; set to "" to hide
-  linkedin: "https://www.linkedin.com/in/ncham-livingston",   // <-- replace with your LinkedIn URL
-  email: "livingstonncham@gmail.com",        // e.g. "you@example.com"; leave "" to hide the button
+  coords: "5.44° N, 10.05° E",
+  linkedin: "https://www.linkedin.com/in/ncham-livingston",
+  email: "livingstonncham@gmail.com",
+  galleryTitle: "Environment and Ocean Dynamics with Stress Mapping in the Gulf of Guinea, Cameroon",
   footer: "Maps and analysis by Ncham Livingston Ankinimbom."
 };
 
-/* ----------------------------------------------------------
-   One block per project. To add a map: copy a block, paste it
-   below the last one (keep the comma), and change the details.
-
-   title        Name of the map
-   topic        Used for the filter buttons (e.g. "Marine GIS")
-   description  1 to 2 sentences: what the map shows and why
-   area         Study area
-   tools        List of software used
-   year         Year made
-   image        Preview picture in the maps folder (PNG or JPG)
-   pdf          Full-quality PDF in the maps folder (optional)
-   link         Link to an interactive map, e.g. ArcGIS Online (optional)
-   ---------------------------------------------------------- */
-
 window.PROJECTS = [
   {
-    title: "Sample: Coastal bathymetry map",
+    title: "Bathymetry and Coastal Topography",
     topic: "Marine GIS",
-    description: "Replace this with a sentence about what your map shows, the data you used and what it helped you find.",
-    area: "Your study area",
-    tools: ["QGIS"],
+    description: "Seafloor depth and coastal elevation from GEBCO, showing the continental shelf, the deep water south of Bioko Island and the high relief on land.",
+    area: "Gulf of Guinea, Cameroon",
+    tools: ["ArcGIS Desktop", "Google Earth Engine"],
     year: 2026,
-    image: "maps/sample-marine.png",
-    pdf: "maps/sample-marine.pdf",
+    image: "maps/bathymetry-gog-cameroon.png",
+    pdf: "maps/bathymetry-gog-cameroon.pdf",
     link: ""
   },
   {
-    title: "Sample: Flood risk zones",
-    topic: "Climate risk",
-    description: "Replace this with a sentence about the hazard, the indicators you combined and the area covered.",
-    area: "Your study area",
-    tools: ["ArcGIS Pro", "Remote sensing"],
+    title: "Sea Surface Temperature",
+    topic: "Marine GIS",
+    description: "Sea surface temperature from NASA MODIS-Aqua, showing warmer water along the coast and cooler water offshore to the south.",
+    area: "Gulf of Guinea, Cameroon",
+    tools: ["ArcGIS Desktop", "Google Earth Engine"],
     year: 2026,
-    image: "maps/sample-climate.png",
-    pdf: "maps/sample-climate.pdf",
+    image: "maps/sea-surface-temperature-gog-cameroon.png",
+    pdf: "maps/sea-surface-temperature-gog-cameroon.pdf",
     link: ""
   },
   {
-    title: "Sample: Land cover change",
-    topic: "Spatial analysis",
-    description: "Replace this with a sentence about the years compared and the main change you found.",
-    area: "Dschang, West Region",
-    tools: ["QGIS", "Google Earth Engine"],
-    year: 2025,
-    image: "maps/sample-landcover.png",
-    pdf: "",
+    title: "Chlorophyll-a Concentration",
+    topic: "Marine GIS",
+    description: "Chlorophyll-a classes from NASA MODIS-Aqua, used as an indicator of biological productivity, with the higher values concentrated near the coast.",
+    area: "Gulf of Guinea, Cameroon",
+    tools: ["ArcGIS Desktop", "Google Earth Engine"],
+    year: 2026,
+    image: "maps/chlorophyll-a-gog-cameroon.png",
+    pdf: "maps/chlorophyll-a-gog-cameroon.pdf",
+    link: ""
+  },
+  {
+    title: "Wind Speed",
+    topic: "Marine GIS",
+    description: "Wind speed classes from calm to strong, with the strongest winds around south-western Bioko Island and along the south-eastern coast.",
+    area: "Gulf of Guinea, Cameroon",
+    tools: ["ArcGIS Desktop", "Google Earth Engine"],
+    year: 2026,
+    image: "maps/wind-speed-gog-cameroon.png",
+    pdf: "maps/wind-speed-gog-cameroon.pdf",
+    link: ""
+  },
+  {
+    title: "Rainfall Distribution",
+    topic: "Marine GIS",
+    description: "Rainfall classes from lowest to highest, with the heaviest rainfall over the Cameroon mainland coast.",
+    area: "Gulf of Guinea, Cameroon",
+    tools: ["ArcGIS Desktop", "Google Earth Engine"],
+    year: 2026,
+    image: "maps/rainfall-gog-cameroon.png",
+    pdf: "maps/rainfall-gog-cameroon.pdf",
+    link: ""
+  },
+  {
+    title: "Surface Roughness",
+    topic: "Marine GIS",
+    description: "Satellite backscatter used as a roughness layer, separating rough land surfaces from the smoother sea and showing the coastline clearly.",
+    area: "Gulf of Guinea, Cameroon",
+    tools: ["ArcGIS Desktop", "Google Earth Engine"],
+    year: 2026,
+    image: "maps/roughness-gog-cameroon.png",
+    pdf: "maps/roughness-gog-cameroon.pdf",
+    link: ""
+  },
+  {
+    title: "Oil Spill and Backscatter",
+    topic: "Marine GIS",
+    description: "Satellite backscatter values used to look for dark, low-backscatter patches on the sea surface that can indicate oil slicks.",
+    area: "Gulf of Guinea, Cameroon",
+    tools: ["ArcGIS Desktop", "Google Earth Engine"],
+    year: 2026,
+    image: "maps/oil-spill-backscatter-gog-cameroon.png",
+    pdf: "maps/oil-spill-backscatter-gog-cameroon.pdf",
     link: ""
   }
 ];

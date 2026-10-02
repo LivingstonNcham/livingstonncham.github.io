@@ -197,8 +197,9 @@ main { padding-block: clamp(2.5rem, 6vw, 4.5rem); }
 .thumb img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
+  object-position: top center;
 }
 
 .card-body {
