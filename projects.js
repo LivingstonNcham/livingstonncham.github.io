@@ -21,8 +21,8 @@ window.PROJECTS = [
     area: "Bakassi coast, Cameroon",
     tools: ["QGIS", "Copernicus Marine", "Python"],
     year: 2026,
-    image: "maps/bakassisea-currents-bakassi.png",
-    pdf: "maps/bakassisea-currents-bakassi.pdf",
+    image: "maps/bakassisea-currents-bakassi.png.png",
+    pdf: "maps/bakassisea-currents-bakassi.pdf.pdf",
     link: ""
   }, 
   {
