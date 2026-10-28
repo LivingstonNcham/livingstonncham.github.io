@@ -14,6 +14,17 @@ window.SITE = {
 };
 
 window.PROJECTS = [
+   {
+    title: "BakassiSea: Depth Map",
+    topic: "BakassiSea project",
+    description: "Seafloor depth and coastal elevation from GEBCO 2026 about 450 m resolution, Point B sits on deeper water getting bigger wavesthe  and Points A and C sit in very shallow water with little waves and tides matter a lot
+    area: "Bakassi coast, Cameroon",
+    tools: ["QGIS", "GEBCO", "python"],
+    year: 2026,
+    image: "maps/bakassisea-depth map.png",
+    pdf: "maps/bakassisea-depth map.pdf", 
+    link: ""
+   }
     {
     title: "BakassiSea: Mean Surface Currents",
     topic: "BakassiSea project",
