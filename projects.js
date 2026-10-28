@@ -14,6 +14,17 @@ window.SITE = {
 };
 
 window.PROJECTS = [
+    {
+    title: "BakassiSea: Mean Surface Currents",
+    topic: "BakassiSea project",
+    description: "Seven-day mean surface currents (19 to 25 October 2026) from the Copernicus Marine hourly model, with arrows for direction and colour for speed over GEBCO sea-floor depth, and three study points for a daily sea-state guide for small-scale fishers.",
+    area: "Bakassi coast, Cameroon",
+    tools: ["QGIS", "Copernicus Marine", "Python"],
+    year: 2026,
+    image: "maps/bakassisea-currents-bakassi.png",
+    pdf: "maps/bakassisea-currents-bakassi.pdf",
+    link: ""
+  }, 
   {
     title: "Bathymetry and Coastal Topography",
     topic: "Marine GIS",
