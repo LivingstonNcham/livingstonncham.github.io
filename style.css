@@ -292,3 +292,7 @@ img[src*="bakassisea"] {
   object-fit: contain !important;
   background: #ffffff;
 }
+
+img[src*="bakassisea"] {
+  object-position: center;
+}
