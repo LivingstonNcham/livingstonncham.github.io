@@ -17,14 +17,14 @@ window.PROJECTS = [
    {
     title: "BakassiSea: Depth Map",
     topic: "BakassiSea project",
-    description: "Seafloor depth and coastal elevation from GEBCO 2026 about 450 m resolution, Point B sits on deeper water getting bigger waves, Points A and C sits in very shallow water with little waves where tides matter a lot
+    description: "Seafloor depth from (GEBCO 2026 about 450 m resolution) ranging from 0 to 60+ m, Point B sits on deeper water getting bigger waves, Points A and C sits in very shallow water with little waves where tides matter a lot
     area: "Bakassi coast, Cameroon",
     tools: ["QGIS", "GEBCO", "python"],
     year: 2026,
-    image: "maps/depth map.png",
-    pdf: "maps/depth map.pdf", 
+    image: "maps/bakassi-depth-map.png",
+    pdf: "maps/bakassi-depth-map.pdf", 
     link: ""
-   }
+   },
     {
     title: "BakassiSea: Mean Surface Currents",
     topic: "BakassiSea project",
