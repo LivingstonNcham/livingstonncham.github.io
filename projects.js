@@ -25,6 +25,17 @@ window.PROJECTS = [
     pdf: "maps/bakassisea-currents-bakassi.pdf.pdf",
     link: ""
   }, 
+     {
+    title: "BakassiSea: Sea-Floor Depth",
+    topic: "BakassiSea project",
+    description: "Sea-floor depth of the Bakassi coast and estuary mouth from GEBCO 2026, in six depth classes, with the three study points of the BakassiSea daily sea-state guide. The shelf is very shallow near the estuary and deepens toward the south.",
+    area: "Bakassi coast, Cameroon",
+    tools: ["QGIS", "GEBCO"],
+    year: 2026,
+    image: "maps/bakassisea-depth-bakassi.png",
+    pdf: "maps/bakassisea-depth-bakassi.pdf",
+    link: ""
+  },
   {
     title: "Bathymetry and Coastal Topography",
     topic: "Marine GIS",
