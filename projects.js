@@ -14,6 +14,17 @@ window.SITE = {
 };
 
 window.PROJECTS = [
+     {
+    title: "BakassiSea: Climate of the Bakassi Coast",
+    topic: "BakassiSea project",
+    description: "Month-by-month rain, Cross River flow, waves and the share of CAUTION or AVOID days at three study points, from 30 to 35 years of ERA5, GloFAS and Copernicus wave reanalysis data. Typical conditions under draft thresholds, not a forecast.",
+    area: "Bakassi coast, Cameroon",
+    tools: ["Python", "ERA5", "GloFAS", "Copernicus Marine"],
+    year: 2026,
+    image: "maps/bakassisea-climate-bakassi.png",
+    pdf: "maps/bakassisea-climate-bakassi.pdf",
+    link: ""
+  },
     {
     title: "BakassiSea: Mean Surface Currents",
     topic: "BakassiSea project",
