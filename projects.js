@@ -14,6 +14,28 @@ window.SITE = {
 };
 
 window.PROJECTS = [
+     {
+    title: "BakassiSea: Climate of the Bakassi Coast",
+    topic: "BakassiSea project",
+    description: "Month-by-month rain, Cross River flow, waves and the share of CAUTION or AVOID days at three study points, from 30 to 35 years of ERA5, GloFAS and Copernicus wave reanalysis data. Seasonal patterns under draft thresholds, not a forecast; yearly rainfall totals are uncertain.",
+    area: "Bakassi coast, Cameroon",
+    tools: ["Python", "ERA5", "GloFAS", "Copernicus Marine"],
+    year: 2026,
+    image: "maps/bakassisea-climate-bakassi.png",
+    pdf: "maps/bakassisea-climate-bakassi.pdf",
+    link: ""
+  },
+  {
+    title: "BakassiSea: Air Temperature Since 1991",
+    topic: "BakassiSea project",
+    description: "Annual mean air temperature at the three study points from the ERA5 reanalysis, 1991 to 2025: about +0.2 C per decade. Reanalysis values on a 25 km grid; a 35-year record cannot show the cause. ERA5 rainfall trends were checked and rejected because of known breaks in the series.",
+    area: "Bakassi coast, Cameroon",
+    tools: ["Python", "ERA5"],
+    year: 2026,
+    image: "maps/bakassisea-temperature-bakassi.png",
+    pdf: "maps/bakassisea-temperature-bakassi.pdf",
+    link: ""
+  },
     {
     title: "BakassiSea: Mean Surface Currents",
     topic: "BakassiSea project",
